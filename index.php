@@ -7,6 +7,7 @@
     <title>Test Git 2</title>
 </head>
 
+<body>
     <p>IDGAF</p>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi alias rem, voluptatibus eligendi perferendis laudantium aut quisquam debitis maiores accusantium dicta dolorem minima, facilis modi deserunt aspernatur cum ut autem?</p>
 
@@ -15,7 +16,6 @@
         <li>Cuma Test</li>
 
     </ul>
-<body>
     
 </body>
 </html>
