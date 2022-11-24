@@ -30,7 +30,6 @@
 //     if ($i == 2) {
 //         echo "$i adalah bilangan prima <br>";
 //     } else {
-//         # code...
 //         for ($cek = 1; $cek < $i; $cek++) {
 //             if ($cek == 1) {
 //                 continue;
@@ -45,5 +44,17 @@
 
 //menentukan apakah n adalah bilangan prima
 $n = 97;
-
+if ($n == 1) {
+    echo "$n bukan bilangan prima";
+} else {
+    for ($i = 1; $i < $n; $i++) {
+        if ($i == $n - 1 && $n % ($i + 1) == 0) {
+            echo "$n adalah bilangan prima";
+        }
+        else if ($n % $i == 0 && $i != 1) {
+            echo "$n bukan bilangan prima";
+            break;
+        }
+    }
+}
 ?>
