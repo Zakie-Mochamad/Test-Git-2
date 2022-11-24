@@ -17,13 +17,6 @@
 
     </ul>
 
-    <script>
-        
-        for (let index = 0; index < 10; index++) {
-            console.log(index);
-            
-        }
-    </script>
-    
+<script src="testScript.js"></script>    
 </body>
 </html>
