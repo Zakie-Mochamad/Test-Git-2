@@ -1,1 +1,1 @@
-console.log(8%2);
+console.log("8 % 0 = "+8%0);

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +18,32 @@
 
     </ul>
 
-<script src="testScript.js"></script>    
+    <script src="testScript.js"></script>
 </body>
+
 </html>
+
+<?php
+// mencari bilangan prima dari angka 1 - n
+// $n = 100;
+// for ($i = 1; $i <= $n; $i++) {
+//     if ($i == 2) {
+//         echo "$i adalah bilangan prima <br>";
+//     } else {
+//         # code...
+//         for ($cek = 1; $cek < $i; $cek++) {
+//             if ($cek == 1) {
+//                 continue;
+//             } else if ($i % $cek == 0) {
+//                 break;
+//             } else if ($cek == $i - 1) {
+//                 echo "$i adalah bilangan prima <br>";
+//             }
+//         }
+//     }
+// }
+
+//menentukan apakah n adalah bilangan prima
+$n = 97;
+
+?>
