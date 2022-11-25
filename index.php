@@ -93,7 +93,7 @@
 // }
 
 // pola segitiga 3
-$n = 10; //jumlah banyak nya segitiga
+// $n = 10; //jumlah banyak nya segitiga
 // for ($i=0; $i < $n; $i++) { 
 //     for ($space=$n; $space > $i; $space--) { 
 //         echo "&nbsp ";
@@ -105,16 +105,73 @@ $n = 10; //jumlah banyak nya segitiga
 // }
 
 // pola segitiga 4
-$n = 10;
-for ($i=0; $i < $n; $i++) { 
-    for ($space=0; $space <= $i ; $space++) { 
-        echo "&nbsp ";
-    }
-    for ($print=$n; $print > $i; $print--) { 
-        echo "* &nbsp";
-    }
+// $n = 10;
+// for ($i=0; $i < $n; $i++) { 
+//     for ($space=0; $space <= $i ; $space++) { 
+//         echo "&nbsp ";
+//     }
+//     for ($print=$n; $print > $i; $print--) { 
+//         echo "* &nbsp";
+//     }
 
-    echo"<br>";
+//     echo"<br>";
+// }
+
+// 5 angka random kelipatan 5 dari 1-100
+// $angka = 5;
+// while ($angka > 0) {
+//     $angkaRandom = rand(1,100);
+//     if ($angkaRandom % 5 == 0) {
+//         if ($angkaRandom <= 60) {
+//             $text = " Kurang";
+//         } else if ($angkaRandom > 60 && $angkaRandom <= 70) {
+//             $text = " Cukup";
+//         }
+//         else if ($angkaRandom > 70 && $angkaRandom <= 80){
+//             $text = " Baik";
+//         }
+//         else if ($angkaRandom > 80){
+//             $text = " Luar Biasa";
+//         }
+
+//         echo "$angkaRandom $text <br>";
+//         $angka--;
+        
+//     }
+    
+// }
+
+// deret angka kelipatan 3 dari 1 - n 
+// $n = 100;
+// $angka="";
+// for($i = 0; $i < $n; $i++){
+//     if ($i%3 == 0) {
+//         $angka .="$i ";
+//     }
+// }
+// echo $angka;
+
+// fungsi cek nama kota 
+function cekKota($kota = ""){
+    $arr = ["jakarta", "yogyakarta", "bandung", "bogor", "semarang"];
+    foreach($arr as $index => $isi){
+        if(strtolower($kota) == $isi){
+            // echo "true";
+            // break;
+            return true;
+        }
+        else if($index == count($arr)-1){
+            // echo "false";
+            return false;
+        }
+        
+            
+        
+    }
+    
 }
+
+$cekKota = cekKota("yogyakarta");
+echo $cekKota == true ? "true":"false";
 
 ?>
