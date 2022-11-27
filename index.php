@@ -174,4 +174,8 @@ function cekKota($kota = ""){
 $cekKota = cekKota("yogyakarta");
 echo $cekKota == true ? "true":"false";
 
+//test ubah data dari github
+// coba di pull dari git
+echo "sukses";
+
 ?>
